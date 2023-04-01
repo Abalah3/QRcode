@@ -1,14 +1,28 @@
-img {
-    size:20px x 20px;
-    margin-right: 20%;
-    margin-left: 20%;
+#qrimage {
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
     display: flex;
+    }
+
+.viewport {
+    height: 500px;
+    width: 40%;
+    display: flex;
+    
+    border-radius: 10px;
+   
+   
+    flex-direction: column;
+    margin: 25%;
     
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    justify-content: center;
     color: hsl(228, 45%, 44%);
 }
 h1 {
@@ -17,4 +31,17 @@ h1 {
 }
 p {
     font-size: 15px;
+    color: darkblue;
+}
+.inner{
+    background-color:white;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+}
+.desktop-image{
+    margin: 32px;
+}
+body{
+    background-color:hsl(212, 45%, 89%) ;
 }
